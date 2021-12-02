@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/R (1).png" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./mycss/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+    <title>facebook</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+      <a href="" class="navbar-brand"><h1>Facebook</h1></a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#links"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="links">
+        <ul class="navbar-nav ml-auto mr-5">
+          <li class="nav-items ml-1">
+            <span class="nav-text">email or phone</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="email or phone"
+            />
+          </li>
+          <li class="nav-items ml-1">
+            <span class="nav-text">password</span>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="password"
+            />
+            <a href="" class="nav-link"> forgotton password</a>
+          </li>
+          <li class="nav-items mt-4 ml-1">
+            <button class="btn btn-primary">Login</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--content-->
+    <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 mt-3">
+          <h3 class="main__text">
+            Facebook help you connect and share with the <br />people in
+            yourlife.
+          </h3>
+          <img
+            src="./images/R.jfif"
+            alt=""
+            class="mx-auto d-block img-fluid mt-1"
+          />
+        </div>
+        <div class="col-sm-12 col-md-6 mt-3">
+          <h1 class="from__text">Create an account</h1>
+          <p class="text-muted ml-1">it's free and always will be.</p>
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control w-auto ml-3 mt-1"
+                  placeholder="firstname"
+                />
+              </div>
+              <div class="form--group ml-2">
+                <input
+                  type="text"
+                  class="form-control w-auto ml-2 mt-1"
+                  placeholder="surname"
+                />
+              </div>
+            </div>
+            <div class="form-group ml-2">
+              <input
+                type="text"
+                class="form-control w-75 mt-2"
+                placeholder="email or phone number"
+              />
+            </div>
+
+            <div class="form-group ml-2">
+              <input
+                type="password"
+                class="form-control w-75 mt-2"
+                placeholder="new password"
+              />
+            </div>
+
+            <h4 class="mt-1 ml-3">Birthday</h4>
+            <div class="form-row ml-2">
+              <div class="form-group">
+                <select name="" id="" class="form-control">
+                  <option value="day">21</option>
+                  <option value="day">21</option>
+                </select>
+              </div>
+              <div class="form-group ml-2">
+                <select name="" id="" class="form-control">
+                  <option value="month">Jan</option>
+                  <option value="month">Feb</option>
+                </select>
+              </div>
+              <div class="form-group ml-2">
+                <select name="" id="" class="form-control">
+                  <option value="year">1994</option>
+                  <option value="year">1995</option>
+                </select>
+              </div>
+              <span class="form-text ml-2"
+                >why do i need to provide <br />
+                my date of birth?</span
+              >
+            </div>
+            <div class="form-row ml-2 mt-1">
+              <div class="form-group">
+                <div class="custom-control custom-radio">
+                  <input
+                    type="radio"
+                    id="Radio"
+                    name="customRadio"
+                    class="custom-control-input"
+                  />
+                  <label class="custom-control-label" for="Radio"
+                    >male</label
+                  >
+                </div>
+              </div>
+              <div class="form-group ml-2">
+                <div class="custom-control custom-radio">
+                  <input
+                    type="radio"
+                    id="Radio1"
+                    name="customRadio"
+                    class="custom-control-input"
+                  />
+                  <label class="custom-control-label" for="Radio1"
+                    >female</label
+                  >
+                </div>
+              </div>
+            </div>
+            <p class="form-text ml-2">
+              By clicking Sign up you agree to our
+              <span>terms Data policy</span> and <br />
+              <span>Cookie Policy</span>. you may receive SMS notifications from
+              us and <br />
+              can out all any time.
+            </p>
+            <div class="form-group ml-2">
+              <button type="button" class="btn btn-success w-50">
+                Sign Up
+              </button>
+            </div>
+            <p class="ml-2 form-text"">
+              <span >create a page</span> for a celebrity band
+              or business
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

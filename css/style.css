@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box__input {
+  display: flex;
+  background-color: #4267b2;
+  color: white;
+}
+
+.box__name {
+  background-color: #4267b2;
+  color: white;
+}
+.login__btn {
+  width: 4rem;
+  height: 2rem;
+  border-radius: 3px;
+  margin-top: 1.5rem;
+  font-size: 14px;
+  /* background-color: #0040ff; */
+  /* background-color: #1c39bb; */
+  background-color: #0d57eb;
+  color: white;
+  border: white;
+}
+.nav__link {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+.nav__link:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.box__text {
+  margin-top: 3rem;
+  color: #0d57eb;
+}
+.input__types {
+  color: white;
+}
+.sign__form {
+  margin-top: 2rem;
+}
+.box__form {
+  margin-left: 3rem;
+}
+.birth__text {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.select__box {
+  height: 2rem;
+  width: 4rem;
+  margin-top: 0.5rem;
+}
+.birth__subtext {
+  margin-left: 13rem;
+}
+span {
+  color: #0040ff;
+}
+.paragraph__details {
+  font-size: small;
+}
+.sign__btn {
+  width: 15rem;
+  border-radius: 3px;
+  background-color: #2e8b57;
+  color: white;
+  box-shadow: 1px 1px;
+  border: 2px solid #2e8b57;
+}
